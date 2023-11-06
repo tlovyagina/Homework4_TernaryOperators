@@ -3,6 +3,7 @@ package org.example;
 public class NumberConverter {
     public static String convertNumber(int number) {
         String result;
+
         if (number > 0) {
             if (number % 7 < 4) {
                 result = "positive-m";
